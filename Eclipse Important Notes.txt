@@ -1,0 +1,545 @@
+> Environment variables 
+> Formatters
+> Plugins and Extensions
+> What is benifits for Eclipse
+> Why eclipse needed
+> Server and it's Configuration
+> Workspace 
+> Editing and Refactoring
+> Preferences and Customization
+> Snippets
+> It's Marketplace
+
+
+
+1. Environment Variable : 
+
+	Environment variables are a set of dynamic values that can affect the behavior of software and operating systems. These variables are part of the environment in which a process runs and can be accessed and modified by applications or users. Environment variables provide a way to store configuration settings, system information, and other data that various programs and scripts can use.
+
+	Here are some key points about environment variables:
+
+	1. System Information: Environment variables store information about the system or the user running a program. This can include information like the user's home directory, the system's architecture, and the location of critical system files.
+
+	2. Configuration Settings: Many software applications use environment variables to determine configuration settings. For example, a program might use an environment variable to determine the location of a configuration file, a temporary directory, or a database connection.
+	Ex. If we need to change mode and with help of that cfg id we can di that.
+
+	3. Security: Environment variables can store sensitive information, but they are typically accessible only to authorized users or applications. These variables can be used to store passwords, API keys, and other sensitive data.
+
+	4. Interoperability (ability of computer systems or software to exchange and make use of information) : Environment variables are used by various operating systems and programming languages. This makes them a common and accessible way to pass information between different parts of a system or between different programs.
+
+	5. Accessibility: Environment variables can be accessed and modified by users and applications, which means they are an accessible way to make system-wide or user-specific changes.
+
+	6. Examples: Common environment variables include `PATH` (used to specify directories to search for executable files), `HOME` (specifies the user's home directory), `USER` (the username of the current user), and `TEMP` or `TMP` (locations for temporary files).
+
+	Environment variables are essential for system configuration, interoperability, and application behavior. They are often used in scripting and software development to make applications adaptable to different system configurations and user requirements.
+	
+	Ex. To store log in somewhere we give path on environment variable and fetch user log's from that place that have been mention.
+	
+	
+	In Our Env have.
+	> Db information
+	> Site details
+	> Configurations
+	> Env Link
+	
+
+2. Formatters
+
+		A formatter, in the context of programming and software development, is a tool or component used to automatically format or style source code according to a specified set of rules and conventions. Code formatting, also known as code styling or code beautification, involves making the source code more readable, consistent, and adhering to a standard coding style. Formatters are used to ensure that code is well-structured and follows established coding guidelines.
+
+		Here are some key aspects of code formatters:
+
+		> Consistency: Formatters help ensure that all code in a project follows the same coding style, making it easier for developers to read and understand the code.
+
+		> Automated: Formatters are typically automated tools that can process source code files and apply formatting rules without manual intervention.
+
+		> Indentation: One of the most common formatting tasks is the adjustment of code indentation (e.g., tabs or spaces) to represent code blocks and nesting clearly.
+
+		> Whitespace: Formatters handle the placement of spaces and line breaks to make the code more readable and consistent.
+
+		> Line Length: Some formatters can enforce a maximum line length to prevent excessively long lines of code.
+
+		> Code Structure: Formatters can arrange code elements such as variables, functions, and classes in a consistent and organized manner.
+
+		> Comments: They can also format comments, including aligning and spacing comments for improved readability.
+
+		> Language-Specific: Many programming languages have specific formatters tailored to their syntax and conventions. For example, Prettier for JavaScript, gofmt for Go, and Black for Python.
+
+		> Customization: Some formatters allow developers to customize the formatting rules to fit their team's coding style.
+
+		> Integration: Formatters can be integrated into development environments (IDEs), build processes, and version control systems to enforce consistent formatting automatically.
+		
+		
+		As we have one google-java-style doc for formatter.
+		
+
+
+3. What is benifits for Eclipse
+		
+		Eclipse, as an integrated development environment (IDE), offers a wide range of benefits to developers, making it a popular choice for software development. Here are some of the key benefits of using Eclipse as a developer:
+
+		Open Source: Eclipse is open-source software, which means it's free to use and has a large and active community of developers who contribute to its development and maintenance.
+
+		Cross-Platform: Eclipse is available for various operating systems, including Windows, macOS, and Linux, allowing developers to work on their platform of choice.
+
+		Extensibility: Eclipse is highly extensible, thanks to its plugin architecture. Developers can install and create plugins to enhance functionality, supporting various programming languages and frameworks.
+
+		Programming Language Support: Eclipse supports multiple programming languages, including Java, C/C++, Python, PHP, and more, making it versatile for different types of projects.
+
+		Code Assistance: Eclipse provides features like code completion, syntax highlighting, and code templates, helping developers write code more efficiently and with fewer errors.
+
+		Integrated Debugger: Eclipse includes a built-in debugger that supports various languages, allowing developers to easily debug and test their applications.
+
+		Version Control Integration: Eclipse integrates with version control systems like Git, SVN, and CVS, making it easy to manage source code repositories within the IDE.
+
+		Project Management: Developers can create and manage projects, organize files, and set build configurations within Eclipse.
+
+		Refactoring Tools: Eclipse offers a range of refactoring tools that make it easier to improve code quality and maintainability.
+
+		Task Management: Eclipse includes task and issue tracking features that help developers keep track of project tasks, bugs, and enhancements.
+
+		User-Friendly Interface: Eclipse provides a user-friendly interface with a customizable layout, allowing developers to adapt the IDE to their workflow.
+
+		Rich Ecosystem: Eclipse has a vast ecosystem of plugins and extensions available through the Eclipse Marketplace, covering various domains and technologies.
+
+		Community and Support: Eclipse has a large and active community, providing support, documentation, tutorials, and forums for developers to seek assistance and share knowledge.
+
+		Code Templates and Snippets: Eclipse allows developers to create and use code templates and snippets for repetitive tasks, saving time and effort.
+
+		Performance and Scalability: Eclipse is designed to handle both small and large-scale projects, with performance improvements in newer versions.
+
+		Consistency: Eclipse enforces coding standards and conventions, ensuring consistency across the development team.
+
+		Continuous Updates: Eclipse is regularly updated, with new features and bug fixes, helping developers stay up to date with the latest technologies and best practices.
+	
+4. Plugins:
+
+		Definition: A plugin in Eclipse is a self-contained software module that adds specific features or functionality to the IDE. Plugins extend Eclipse's core functionality and are designed to be modular, allowing developers to add or remove them as needed.
+
+		Role: Plugins can add new perspectives, views, editors, wizards, builders, and other tools to Eclipse. They help customize the IDE for specific programming languages, frameworks, or development tasks.
+
+		Examples:
+
+		Eclipse Web Tools Platform (WTP): This plugin extends Eclipse's capabilities for web development. It provides tools for creating, testing, and deploying web applications. For example, the HTML and JSP editors, JavaScript tools, and server connectors are part of WTP.
+
+		Eclipse Marketplace Client: This plugin allows users to discover, install, and manage additional plugins and extensions for Eclipse. It provides a convenient way to enhance Eclipse's functionality with a wide range of third-party plugins.
+
+5. Extensions:
+
+		Definition: An extension, in the context of Eclipse, is a mechanism for adding functionality to existing Eclipse plugins. Extensions allow other plugins to contribute new capabilities, menu items, or user interface elements to an existing plugin.
+
+		Role: Extensions help in the composition of Eclipse applications by allowing different plugins to work together. They enable a high degree of modularity and flexibility.
+
+		Examples:
+
+		Java Development Tools (JDT) Extension Points: Eclipse's Java Development Tools provide extension points for other plugins to contribute to Java development features. For example, a code analysis plugin can contribute new code analysis rules to JDT.
+
+		Team Provider Extensions: Eclipse supports version control systems through team provider extensions. These extensions allow different version control plugins (e.g., Git, SVN) to integrate with Eclipse and contribute version control features to the IDE.
+
+		Example:
+
+		Let's consider a practical example involving plugins and extensions in Eclipse:
+
+		Scenario: You are developing a Java application in Eclipse, and you want to use a specific code analysis tool (Plugin A) that is not included in the standard Eclipse distribution.
+
+		Solution:
+
+		Plugin A (Plugin): You install Plugin A in Eclipse. This plugin adds code analysis features, such as identifying code quality issues and suggesting improvements.
+
+		JDT (Extension): Plugin A uses an extension point provided by the Java Development Tools (JDT) plugin. This extension point allows Plugin A to contribute its code analysis features to the Java development environment.
+
+		Result: As a developer, you can now use Plugin A's code analysis capabilities seamlessly within the Eclipse IDE, enhancing your Java development experience.
+
+		In summary, plugins and extensions in Eclipse enable developers to customize, extend, and enhance the functionality of the IDE. Plugins add new features, while extensions allow plugins to contribute their functionality to other parts of the IDE, creating a highly modular and extensible development environment. This flexibility and extensibility are key reasons for Eclipse's popularity in the software development community.
+		
+		> Plugins add new features, while extensions allow plugins to contribute their functionality to other parts of the IDE, creating a highly modular and extensible development environment. 
+
+		Mylyn Task List (Plugin):
+
+			Description: Mylyn is a task-focused interface for Eclipse that helps developers manage tasks, bugs, and issues from various task repositories (e.g., JIRA, Bugzilla, GitHub Issues).
+			Functionality: Mylyn provides a task list, task-focused views, and automatic context management. It allows you to focus on relevant code and resources based on the task you are working on.
+			Use Case: When working on a software project, you can create, update, and manage tasks from within Eclipse, making it easier to stay organized and productive.
+			
+			
+		Checkstyle (Plugin):
+
+			Description: Checkstyle is a development tool that enforces coding standards by checking your code against a set of predefined rules.
+			Functionality: The Eclipse Checkstyle plugin integrates Checkstyle into the IDE, allowing you to run code quality checks and view and fix issues directly within Eclipse.
+			Use Case: If you want to maintain consistent coding standards and style across your team, this plugin helps identify and correct code style violations.
+			
+		EclEmma (Plugin):
+
+			Description: EclEmma is a code coverage tool for Java that helps you visualize and analyze test coverage.
+			Functionality: The EclEmma plugin adds code coverage capabilities to Eclipse, providing a visual representation of which lines of code are covered by your tests.
+			Use Case: If you want to ensure that your Java code is thoroughly tested, EclEmma helps you identify areas of code that require more test coverage.
+			
+		Maven Integration for Eclipse (Plugin):
+
+			Description: This plugin provides seamless integration of Apache Maven with Eclipse, simplifying project management and build processes.
+			Functionality: It allows you to create, import, and manage Maven projects, run Maven goals, and automatically resolve dependencies.
+			Use Case: 
+			When working on Java projects that use Maven as a build tool, this plugin streamlines project setup and dependency management.
+			
+			
+Difference Of Plugin and Extentions : 
+
+		> Plugins are like "apps" for your Eclipse IDE. They are standalone modules that you can add or remove to extend the functionality of Eclipse. Think of them as puzzle pieces you can fit into Eclipse to make it more versatile.
+
+		> Extensions are like "upgrades" for existing plugins. They allow different plugins to communicate and work together, enhancing the features of an existing plugin. 
+		
+		> Plugins provide new features, tools, and capabilities to Eclipse. They add functionality to the core IDE.
+		
+		> Extensions enable plugins to contribute new features or behaviors to other plugins. They provide a way for plugins to cooperate and share functionality.
+		
+		Plugins are like individual apps you add to Eclipse, each providing specific functions, like adding a new tool to your toolbox.
+
+		Extensions are like upgrades to those apps, making them work together more effectively, like adding extra capabilities to your tools.
+		
+		
+6. Server and Configuration : 
+
+		In Eclipse, a "server" typically refers to a runtime environment that allows you to deploy and test web applications, such as Java EE, Java SE, or other server-based applications. Eclipse provides tools for configuring and managing servers to simplify the development and testing of applications. Here's a detailed explanation of setting up a server in Eclipse, focusing on the Java EE context, with an example:
+
+		 > Setting Up a Server in Eclipse:
+
+		Eclipse IDE: Ensure you have Eclipse IDE for Java EE Developers installed, as it includes server integration.
+
+		Server Runtime: Eclipse supports various server runtimes like Apache Tomcat, WildFly, and IBM WebSphere. You need to download and install your desired server runtime separately.
+
+		Adding Server in Eclipse:
+
+		Open Eclipse.
+		Go to the "Servers" view. If you can't see it, go to "Window" > "Show View" > "Other" > "Server" > "Servers."
+		Right-click in the "Servers" view and select "New" > "Server."
+		Select Server Runtime: Choose your installed server runtime (e.g., Apache Tomcat).
+
+		Configure Server: You might need to configure server-specific settings, such as the server's installation directory.
+
+		Add Projects: Add the projects (web applications) you want to deploy on the server. Right-click the server, select "Add and Remove Projects," and choose your project(s).
+
+		Start the Server: Right-click the server in the "Servers" view and select "Start" to launch the server.
+
+		Example - Configuring Apache Tomcat Server:
+
+		Suppose you want to set up an Apache Tomcat server in Eclipse for a Java web application:
+
+		Download Apache Tomcat:
+
+		Visit the Apache Tomcat website.
+		Download the binary distribution of Tomcat that matches your requirements (e.g., Tomcat 9).
+		Extract the downloaded ZIP file to a directory on your machine.
+		Install Eclipse IDE:
+
+		If you haven't already, download and install Eclipse IDE for Java EE Developers.
+		Add Server in Eclipse:
+
+		Open Eclipse.
+		Go to the "Servers" view.
+		Right-click in the "Servers" view and select "New" > "Server."
+		Choose "Apache" > "Tomcat v9.0 Server" and click "Next."
+		Server Configuration:
+
+		Click "Browse" and select the directory where you extracted Apache Tomcat.
+		Click "Finish."
+		Add Your Web Project:
+
+		In the "Servers" view, right-click the server and select "Add and Remove Projects."
+		Select the Java web application project you want to deploy on the server.
+		Start the Server:
+
+		Right-click the server in the "Servers" view and select "Start."
+		Access the Application:
+
+		Once the server is started, open a web browser and navigate to http://localhost:8080/yourwebapp to access your web application.
+		By setting up a server in Eclipse, you can easily develop, test, and debug web applications within your IDE. It provides a convenient environment for Java EE development and simplifies the deployment process. The steps may vary depending on the server and application type you are working with, but the general process remains similar.
+		
+		After adding server and apache tomar if Project it's own configuration then we need to do as per projct configuration like port no and anruguments etc.
+		
+7. Workspace : 
+
+		In Eclipse, a "workspace" is a fundamental concept that plays a crucial role in organizing and managing your development projects. It refers to the directory where your projects and associated files are stored. Here are the key details about workspaces in Eclipse:
+
+		Workspace Location:
+
+		A workspace is a directory on your file system where Eclipse stores all your project files, configurations, and settings.
+		You choose the location of your workspace when you first launch Eclipse.
+		Workspace Switching:
+
+		You can have multiple workspaces on your system, each with its own set of projects and configurations.
+		You can switch between workspaces based on your project needs. This is useful when you work on different projects or want to keep your work separate.
+		Workspace Directory Structure:
+
+		Within your workspace directory, Eclipse creates a specific directory structure to organize your projects.
+		The default structure includes folders like "metadata" (workspace-specific metadata), "plugins" (Eclipse plugins), and "projects" (where project folders are stored).
+		Benefits of Using Workspaces:
+
+		Isolation: Workspaces provide isolation for different projects. Each workspace has its own project settings, preferences, and configurations.
+		Organization: Workspaces help you keep your projects organized. You can have a separate workspace for each client, team, or project.
+		Collaboration: You can share your workspace settings and configurations with others, making it easier to collaborate on projects.
+		Creating a New Workspace:
+
+		When you first launch Eclipse, it prompts you to select an existing workspace or create a new one.
+		You can create a new workspace by specifying the directory where it should be located.
+		Switching Workspaces:
+
+		You can switch between workspaces from within Eclipse. Go to "File" > "Switch Workspace" to choose a different workspace.
+		Eclipse will close the current workspace and open the selected one.
+		Importing Existing Projects:
+
+		You can import existing projects into a new workspace. Go to "File" > "Import" > "General" > "Existing Projects into Workspace."
+		This allows you to work on the same projects in different workspaces without duplicating the project files.
+		Workspace Mechanics:
+
+		Eclipse stores workspace-specific settings, preferences, and project metadata in the workspace's "metadata" folder.
+		Each workspace has its own set of preferences, so you can customize Eclipse for each project separately.
+		Workspace Benefits for Developers:
+
+		Developers working on multiple projects can keep their configurations and settings separate.
+		Workspace isolation helps prevent configuration conflicts and allows for better project management.
+		It's a useful feature for freelance developers, consultants, or anyone working on various projects simultaneously.
+		In summary, a workspace in Eclipse is a designated directory where your development projects and associated files are stored. It offers a way to keep your work organized, isolated, and easily switch between different project contexts.
+		
+		
+8. Editing and Refactoring : 
+
+		Editing and refactoring are essential tasks in software development, and Eclipse provides a range of features and tools to make these tasks more efficient. Here's an explanation of editing and refactoring in Eclipse with examples in simple language:
+
+		Editing in Eclipse:
+
+		Code Editing: Eclipse offers a powerful code editor with features like syntax highlighting, content assist, and error checking. You can simply open a Java file and start typing or making changes.
+
+		Example:
+
+		Open a Java class in Eclipse.
+
+		Type the following code:
+
+		java
+		Copy code
+		public class MyExample {
+			public static void main(String[] args) {
+				System.out.println("Hello, Eclipse!");
+			}
+		}
+		The code editor will provide suggestions and highlight any syntax errors in real-time.
+
+		Content Assist: Eclipse provides intelligent content assist (code completion) as you type. When you start typing a variable or method name, Eclipse offers suggestions and automatically completes the code for you.
+
+		Example:
+
+		Type System. in your Java code.
+		Eclipse will suggest methods like out and auto-complete it when you press Enter.
+		Refactoring in Eclipse:
+
+		Refactoring involves making changes to your code to improve its structure, readability, or maintainability. Eclipse offers various refactoring tools to help with these tasks.
+
+		Renaming Variables or Methods:
+
+		You can easily rename variables or methods to make your code more understandable.
+		Example:
+
+		Right-click on a variable, select "Refactor," and then choose "Rename."
+		Enter the new name, and Eclipse will update all occurrences of that variable in your code.
+		Extracting Methods:
+
+		If you have a block of code that performs a specific task, you can extract it into a separate method for clarity.
+		Example:
+
+		Highlight a block of code.
+		Right-click, select "Refactor," and choose "Extract Method."
+		Enter a method name, and Eclipse creates a new method and replaces the original code with a method call.
+		Moving Code:
+
+		You can move classes or methods to different packages or locations within your project.
+		Example:
+
+		Right-click a class, select "Refactor," and choose "Move."
+		Choose the target package, and Eclipse handles the relocation.
+		Changing Method Signatures:
+
+		You can modify a method's parameters or return type, and Eclipse will update all calls to that method.
+		Example:
+
+		Right-click on a method, select "Refactor," and choose "Change Method Signature."
+		Add, remove, or reorder parameters as needed.
+		Organizing Imports:
+
+		Eclipse can automatically organize and clean up your import statements, removing unused imports and organizing the remaining ones.
+		Example:
+
+		Press Ctrl + Shift + O (or Cmd + Shift + O on macOS) to trigger the "Organize Imports" action.
+		Eclipse will update your import statements.
+		Extracting Interfaces or Superclasses:
+
+		You can extract an interface from a class or create a superclass to promote code reuse.
+		Example:
+
+		Right-click on a class, select "Refactor," and choose "Extract Interface" or "Extract Superclass."
+		Eclipse's refactoring tools make these code transformations safe and consistent throughout your project. These features help improve code quality and maintainability by reducing the risk of introducing errors during changes.	
+		
+		
+9. Preferences and Customization : 
+
+		Preferences and customization in Eclipse allow you to tailor the development environment to your specific needs and preferences. Eclipse provides a wide range of settings that you can adjust, from the appearance of the user interface to code formatting and build configurations. Below, I'll explain how to access and customize preferences in Eclipse, including some important preferences with examples and paths:
+
+		Accessing Preferences:
+
+		To access preferences in Eclipse, go to the "Window" menu (or "Eclipse" menu on macOS) and select "Preferences."
+
+		Alternatively, you can use the keyboard shortcut Ctrl + Alt + S (or Cmd + , on macOS) to open the preferences dialog.
+
+		Customizing Preferences:
+
+		In the "Preferences" dialog, you'll find a tree-like structure on the left, organized into categories. Here are some important preference categories with examples and paths:
+
+		General Preferences:
+
+		Path: General > Workspace
+		Example: You can set your default text file encoding, enabling you to control how Eclipse handles character encodings for files.
+		Editor Preferences:
+
+		Path: General > Editors > Text Editors
+		Example: Customize the appearance and behavior of the code editor, including settings for line numbers, text wrapping, and content assist.
+		Java Code Style Preferences:
+
+		Path: Java > Code Style
+		Example: Define code formatting rules, such as indentation, line wrapping, and code templates.
+		Java Compiler Preferences:
+
+		Path: Java > Compiler
+		Example: Configure compiler settings, including compliance level, error/warning messages, and code generation options.
+		Java Editor Preferences:
+
+		Path: Java > Editor
+		Example: Customize the Java code editor, including code folding, content assist, and code templates.
+		Java Code Templates Preferences:
+
+		Path: Java > Code Style > Code Templates
+		Example: Define code templates for generating code snippets, such as methods, constructors, and comments.
+		User Interface Preferences:
+
+		Path: General > Appearance
+		Example: Modify the theme, colors, fonts, and appearance of the Eclipse user interface.
+		Key Binding Preferences:
+
+		Path: General > Keys
+		Example: Customize key bindings for various actions in Eclipse. For example, you can set your preferred key combination for formatting code.
+		Run/Debug Preferences:
+
+		Path: Run/Debug
+		Example: Configure launch settings for running and debugging applications. You can specify program arguments, VM arguments, and more.
+		Customizing the Eclipse User Interface:
+
+		You can further customize the Eclipse user interface using the following features:
+
+		Perspectives: Eclipse provides different perspectives tailored to specific tasks, such as Java development, debugging, or Git integration. You can switch between perspectives from the "Window" menu.
+
+		Views: You can open, close, move, and customize views within the Eclipse workbench. To add or remove views, go to the "Window" menu and select "Show View."
+
+		Toolbars and Menus: You can modify the toolbars and menus to include your most-used actions. Right-click on a toolbar or menu to customize it.
+
+		Themes: You can install and apply themes to change the overall look and feel of the Eclipse IDE. Go to the "General > Appearance > Theme" preference to select and install themes.
+
+		Customizing Eclipse preferences and the user interface allows you to create a development environment that suits your workflow and coding style. These preferences help you be more productive and efficient in your daily work.
+		
+10. Snippets : 
+
+		In the context of Eclipse and programming, "snippets" generally refer to small, reusable pieces of code that can be quickly inserted into your source code. Snippets are especially helpful when you need to perform common coding tasks, implement design patterns, or write boilerplate code. Eclipse provides a feature known as "Code Snippets" to store and manage these code fragments for easy reuse.
+
+		Why Snippets in Eclipse and Java?
+
+		Code Reusability: Snippets enable you to reuse code segments, reducing the need to rewrite the same code multiple times. This saves time and effort and promotes consistency in your codebase.
+
+		Efficiency: Instead of typing out repetitive code manually, you can insert a snippet with a few clicks. This speeds up development and minimizes the chance of errors.
+
+		Best Practices: Snippets can be used to enforce coding best practices and design patterns. For instance, you can have a snippet for a standard Singleton pattern implementation.
+
+		Learning and Documentation: Snippets can serve as documentation and examples for specific coding techniques or solutions to common problems. They can also help less experienced developers understand and apply certain code patterns.
+
+		Using Code Snippets in Eclipse:
+
+		Eclipse provides a feature called "Code Templates" for managing code snippets. You can access this feature through the Eclipse preferences. Here's how to use them:
+
+		Creating a Code Snippet:
+
+		In Eclipse, go to "Window" > "Preferences."
+		In the preferences dialog, navigate to "Java" > "Code Style" > "Code Templates."
+		You'll find a list of predefined code templates. To create a new snippet, click "New."
+		Give your snippet a name and specify the code you want to insert.
+		Inserting a Snippet:
+
+		In your Java source code, type the abbreviation you assigned to the snippet.
+		Press Ctrl + Space (or Cmd + Space on macOS) to trigger content assist.
+		Select the snippet from the list, and Eclipse will insert the code for you.
+		Managing Snippets:
+
+		You can edit, delete, or reorder your snippets from the "Code Templates" preferences.
+		You can also share your code templates with others by exporting them to a file or importing templates from a file.
+		Example of Using a Code Snippet:
+
+		Let's say you frequently need to create a getter and setter method for a class field. Instead of typing this boilerplate code each time, you can create a code snippet:
+
+		Create a new code template in Eclipse preferences:
+
+		Name: getter
+		Pattern:
+		java
+		Copy code
+		public ${field_type} get${field:field_name}() {
+			return ${field};
+		}
+		In your Java code, when you need to insert a getter method for a field, type getter, press Ctrl + Space, and select the snippet. Eclipse will generate the getter method for you.
+		
+		
+	> Create snippet go in window> view > other > Serch template 
+		then create snippet as you need.
+		
+11. Marketplace : 
+
+		The Eclipse Marketplace is a popular and extensive platform within the Eclipse IDE that allows developers to discover, install, and manage various plugins and extensions to enhance their development environment. It serves as a central hub for accessing a wide range of tools, features, and integrations that can be seamlessly added to the Eclipse IDE. The Marketplace makes it easy to extend Eclipse's capabilities and tailor it to specific programming languages, frameworks, or project requirements.
+
+		Here's an overview of the Eclipse Marketplace:
+
+		Accessing the Eclipse Marketplace:
+
+		Open Eclipse.
+		Go to the "Help" menu.
+		Select "Eclipse Marketplace."
+		From there, you can explore and install various plugins and extensions to enhance your development experience.
+
+		Key Features of the Eclipse Marketplace:
+
+		Vast Selection: The Marketplace offers a vast selection of plugins, tools, and extensions across different categories, catering to various programming languages, frameworks, and purposes.
+
+		User Ratings and Reviews: Users can rate and review plugins, providing valuable insights into their quality and usefulness. This helps you make informed choices.
+
+		Easy Installation: You can install plugins directly from the Marketplace with just a few clicks, eliminating the need for manual installation and configuration.
+
+		Updates and Uninstall: The Marketplace also helps manage updates and allows you to uninstall plugins when they are no longer needed.
+
+		Categories and Recommendations: Plugins are organized into categories, making it easy to find what you need. You'll also receive recommendations based on your development context.
+
+		Search and Filtering: You can search for specific plugins or use filters to refine your search based on criteria such as relevance or popularity.
+		
+		Plugin Discovery: The Marketplace is a one-stop shop for discovering a wide range of plugins and extensions for Eclipse. Developers can search for tools that enhance their development experience or add features they need.
+
+		1. Enhanced Functionality: Developers can extend the capabilities of Eclipse by installing plugins tailored to their specific programming languages, frameworks, and tools. This allows them to work more efficiently and productively.
+
+		2. Customization: Eclipse is a highly customizable IDE. Users can choose from a variety of plugins that align with their development needs, making it a versatile platform for different types of projects.
+
+		3. Project-Specific Tools: Depending on the type of project, developers can install plugins that provide support for specific technologies, such as web development, mobile app development, or data science.
+
+		4. User Ratings and Reviews: The Marketplace offers user ratings and reviews for each plugin, allowing developers to assess the quality and reliability of a plugin before installation.
+
+		5. Simplified Installation: Installing plugins from the Eclipse Marketplace is a straightforward process. This eliminates the need for manual downloads, configurations, and installations, saving time and effort.
+
+		6. Updates and Maintenance: Eclipse Marketplace helps manage updates for installed plugins, ensuring that developers have the latest features and bug fixes. Developers can also uninstall plugins when they are no longer needed.
+
+		7. Community and Collaboration: The Marketplace fosters a sense of community among Eclipse users. Developers can share and recommend their favorite plugins, helping others discover useful tools.
+
+		8. Recommendations: Eclipse Marketplace provides recommendations based on the user's development context, suggesting plugins that may be relevant to their current project.
+
+		9. Project Support: Eclipse projects and initiatives often use the Marketplace as a distribution platform for their tools and technologies, making it a central hub for accessing project-related resources.
+
+
+
